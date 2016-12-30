@@ -1,0 +1,16 @@
+<ion-view view-title="Browse">
+  <ion-content>
+    <h1>Browse</h1>
+
+    <p ng-repeat="c in  cars">{{c}}</p>
+
+    <p ng-class="style" ng-if="gender == 'boy'">Im a boy</p>
+    <p ng-class="style" ng-if="gender == 'girl'">Im a girl</p>
+
+    <button ng-click="changeGender('boy')">boy</button>
+    <button ng-click="changeGender('girl')">girl</button>
+
+    <button ng-click="changeClass('red')">red</button>
+    <button ng-click="changeClass('blue')">blue</button>
+  </ion-content>
+</ion-view>

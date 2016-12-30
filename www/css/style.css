@@ -1,0 +1,29 @@
+.red_button{
+  background-color: red;
+  font-weight: bold;
+  color: black;
+}
+
+.bar.bar-stable {
+  background: red !important;
+  color: #fff !important;
+}
+
+.bar.bar-stable .title {
+  color: #fff !important;
+}
+
+.blue_button{
+  background-color: blue;
+  font-weight: bold;
+  color: black;
+  }
+
+
+  .red {
+    color: red;
+  }
+
+  .blue {
+    color: blue;
+  }
