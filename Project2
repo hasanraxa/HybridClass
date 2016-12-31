@@ -1,0 +1,38 @@
+Project 2
+
+1. Create a new controller
+
+2. Create a new view
+
+3. Implement both new controller and view in a route (state)
+
+4. declare a new scope variable in controller (person)
+	name*
+	father name
+	school
+	phone
+	address
+
+	SUMBIT
+
+5. create a input fields in a view and implement person object using ng-model
+
+6. create 2 classes
+	red
+	blue
+
+7. view: <div ng-class=>color</div>
+		<button>Blue</button>
+		<button>Red</button>
+
+8. if any empty field is preent in above form, show error (ng-if / ng-show) (name == '')
+
+9. if fields is filled then show confirm messages (ng-if / ng-show name != '')
+
+10. on each submit, push names in an array
+$scope.names = [];
+
+ng-submit="submit()"
+	$scopes.names.push(name)
+
+11. ng-repeat $scope.names
